@@ -1,0 +1,35 @@
+name "example"
+
+description "example built by DUB"
+   
+targetType "executable"
+
+targetPath "bin"
+
+buildType "debug" {
+	buildOptions "releaseMode" "optimize" "inline" "noBoundsCheck"
+}
+
+configuration "application" {
+
+    //sourceFiles "res\\resource.res" platform="windows"
+
+    //dependency "dwtlib" path="../"
+    //dependency "dwtlib" version="==0.0.0"
+    dependency "dwtlib" version=">=3.0.0"
+    
+}
+
+configuration "console" {
+    //no dependencies
+}
+
+configuration "gdub" {
+    name "gdub"
+    mainSourceFile "gdub/gdub.d"
+    targetType "executable"
+    targetName "gdub"
+    targetPath "."
+    dependency "dwtlib" version=">=3.0.0" 
+}
+

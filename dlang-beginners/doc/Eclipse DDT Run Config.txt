@@ -1,0 +1,9 @@
+When benchmarking use these dmd compiler flags to achieve maximum optimization:	
+	-release -O -inline -noboundscheck.
+
+note: DUB -release defaults to:
+	-relase -O -inline
+
+In Eclipse DDT, add the nobounds check as follows:
+	${DUB_TOOL_PATH} build -b=release-nobounds
+

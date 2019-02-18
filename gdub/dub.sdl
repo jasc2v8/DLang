@@ -1,0 +1,29 @@
+name "gdub"
+description "GDUB is a DWT GUI front end for DUB, a D language build tool"
+author "jasc2v8 at yahoo dot com"
+copyright "Copyright © 2017 jasc2v8 at yahoo dot com"
+license "MIT"
+
+configuration "gui" {
+    targetName "gui_app"
+    targetType "executable"
+    targetPath "bin"
+    //sourceFiles "res\\resource.res" platform="windows"
+    //dependency "dwtlib" path="../"
+    //dependency "dwtlib" version="==0.0.0"
+    dependency "dwtlib" version=">=3.0.0"
+}
+
+configuration "console" {
+    targetName "console_app"
+    targetType "executable"
+    targetPath "bin"
+}
+
+configuration "gdub" {
+    targetName "gdub"
+    targetType "executable"
+    mainSourceFile "gdub/gdub.d"
+    targetPath "."
+    dependency "dwtlib" version=">=3.0.0" 
+}

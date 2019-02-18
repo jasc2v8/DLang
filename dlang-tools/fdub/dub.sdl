@@ -1,0 +1,6 @@
+name "rdub"
+description "RDUB is a front end for DUB, a D language build tool."
+homepage "https://github.com/jasc2v8/rdub"
+license "MIT"
+//targetType "sourceLibrary"
+targetType "executable"

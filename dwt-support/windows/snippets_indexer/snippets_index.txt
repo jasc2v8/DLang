@@ -1,0 +1,118 @@
+Item, Snippet Number, Description
+=================================
+001 001 This program snippet is the test of displaying RLE4 bitmap and V4 Header bitmap.
+002 007 example snippet: create a table (lazy)
+003 008 Tree example snippet: create a tree (lazy)
+004 009 Composite example snippet: scroll a child control automatically
+005 010 Draw using transformations, paths and alpha blending
+006 014 Control example snippet: detect mouse enter, exit and hover events
+007 015 Tree example snippet: create a tree
+008 016 Display example snippet: create one repeating timer (every 500 ms)
+009 020 CoolBar example snippet: create a cool bar
+010 021 Canvas example snippet: implement tab traversal (behave like a tab group)
+011 024 example snippet: detect CR in a text or combo control (default selection)
+012 025 Control example snippet: print key state, code and character
+013 026 Combo example snippet: create a combo box (non-editable)
+014 029 Menu example snippet: create a bar and pull down menu (accelerators, mnemonics)
+015 032 Program example snippet: find the icon of the program that edits .bmp files
+016 033 DirectoryDialog example snippet: prompt for a directory
+017 038 Table example snippet: create a table (columns, headers, lines)
+018 039 CCombo example snippet: create a CCombo
+019 041 Tool Tips example snippet: create tool tips for a tab item, tool item, and shell
+020 042 Display example snippet: get the bounds and client area of a display
+021 043 Caret example snippet: create a caret (using an image)
+022 044 Cursor example snippet: set the hand cursor into a control
+023 045
+024 046 Composite example snippet: intercept mouse events (drag a button with the mouse)
+025 047 ToolBar example snippet: create tool bar (normal, hot and disabled images)
+026 048 Canvas example snippet: scroll an image (flicker free, no double buffering)
+027 049 ToolBar example snippet: create tool bar (wrap on resize)
+028 058 ToolBar example snippet: place a combo box in a tool bar
+029 060 Display example snippet: create two one shot timers (5000 ms, 2000 ms)
+030 062Control example snippet: print mouse state and button (down, move, up)
+031 066 GC example snippet: implement a simple scribble program
+032 067 ToolBar example snippet: place a drop down menu in a tool bar
+033 068 Display example snippet: stop a repeating timer when a button is pressed
+034 072 FileDialog example snippet: prompt for a file name (to save)
+035 074 Caret example snippet: create a caret
+036 075 Composite example snippet: set the tab traversal order of children
+037 076 TabFolder example snippet: create a tab folder (six pages)
+038 081 OLE and ActiveX example snippet: browse the typelibinfo for a program id (win32 only)
+039 082 CTabFolder example snippet: prevent an item from closing
+040 092 Cursor example snippet: create a cursor from a source and a mask
+041 094 Clipboard example snippet: copy and paste data with the clipboard
+042 096 TableCursor example snippet: navigate a table cells with arrow keys.
+043 097 Menu example snippet: fill a menu dynamically (when menu shown)
+044 098 Composite example snippet: create and dispose children of a composite
+045 107 Sash example snippet: implement a simple splitter (with a 20 pixel limit)
+046 108 Button example snippet: set the default button
+047 109 SashForm example snippet: create a sash form with three children
+048 111 TreeEditor example snippet: edit the text of a tree item (in place, fancy)
+049 115 Composite example snippet: force radio behavior on two different composites
+050 118 Cursor example snippet: create a color cursor from an image file
+051 119 Cursor example snippet: create a color cursor from a source and a mask
+052 122 Clipboard example snippet: enable/disable menu depending on clipboard content availability
+053 127 Control example snippet: prevent Tab from traversing out of a control
+054 128 Browser example snippet: bring up a browser
+055 130 BusyIndicator example snippet: display busy cursor during long running task
+056 130 BusyIndicator example snippet: display busy cursor during long running task
+057 132 Printing example snippet: print "Hello World!" in black, outlined in red, to default printer
+058 133 Printing example snippet: print text to printer, with word wrap and pagination
+059 134 Shell example snippet: create a non-rectangular window
+060 136 Browser example snippet: render HTML from memory
+061 138 example snippet: set icons with different resolutions
+062 140 CoolBar example snippet: drop-down a chevron menu containing hidden tool items
+063 142 UI Automation (for testing tools) snippet: post mouse events
+064 143 Tray example snippet: place an icon with a popup menu on the system tray
+065 144 Virtual Table example snippet: create a table with 1,000,000 items (lazy)
+066 146 UI Automation (for testing tools) snippet: post key events
+067 147 Combo example snippet: stop CR from going to the default button
+068 150 CoolBar example snippet: create a coolbar (relayout when resized)
+069 152 Control example snippet: update a status line when an item is armed
+070 153 ToolBar example snippet: update a status line when the pointer enters a ToolItem
+071 162 Adding an accessible listener to provide state information
+072 163 Setting the font style, foreground and background colors of StyledText
+073 165 Create a CTabFolder with min and max buttons, as well as close button and 
+074 169 Make a toggle button have radio behavior
+075 170 Tree example snippet: Create a Tree with columns
+076 174 SWT OpenGL snippet: draw a square
+077 184 Spinner example snippet: create and initialize a spinner widget
+078 189 Text with underline and strike through
+079 190 Floating point values in Spinner
+080 193 Tree example snippet: allow user to reorder columns by dragging and programmatically.
+081 195 SWT OpenGL snippet: based on snippet195.java
+082 206 Button example snippet: a Button with text and image
+083 207 Use transformation matrices to reflect, rotate and shear images
+084 208 Change hue, saturation and brightness of a color
+085 211 SWT StyledText snippet: use rise and font with StyleRange.
+086 212 StyledText snippet: embed images
+087 213 SWT StyledText snippet: use indent, alignment and justify.
+088 214 Control example snippet: set a background image (a dynamic gradient)
+089 215 GC example snippet: take a screen shot with a GC
+090 217 StyledText snippet: embed controls
+091 218 SWT StyledText snippet: use gradient background.
+092 220 Tree example snippet: Images on the right side of the TreeItem
+093 222 example snippet: StyledText bulleted list example
+094 223 example snippet: ExpandBar example
+095 224 implement radio behavior for setSelection()
+096 226 Tree example snippet: Draw a custom gradient selection
+097 235 example snippet: detect a system settings change
+098 237 Composite Snippet: inherit a background color or image
+099 242 Cursor snippet: Hide the Cursor over a control.
+100 244 StyledText snippet: Draw a box around text.
+101 245 Canvas snippet: paint a circle in a canvas
+102 247 Control example snippet: allow a multi-line text to process the default button
+103 250 DateTime example snippet: create a DateTime calendar and a DateTime time.
+104 251 DateTime example snippet: create a DateTime calendar, date, and time in a dialog.
+105 258 Create a search text control
+106 268 UI Automation (for testing tools) snippet: post mouse wheel events to a styled text
+107 269 Combo example snippet: set the caret position within a Combo's text
+108 275 Canvas snippet: update a portion of a Canvas frequently
+109 276 Display snippet: map from control-relative to display-relative coordinates
+110 282 Copy/paste image to/from clipboard.
+111 286 use a menu item's armListener to update a status line.
+112 288 Create a ToolBar containing animated GIFs
+113 289 Combo example snippet: add an item to a combo box
+114 290 Canvas snippet: ignore 2nd mouse up event after double-click
+115 293 create a tri-state button.
+116 294 Region on a control: create a non-rectangular button

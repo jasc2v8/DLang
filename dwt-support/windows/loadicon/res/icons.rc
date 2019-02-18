@@ -1,0 +1,19 @@
+/* 
+	icons.rc
+	
+    Contains the resource definitions for the application
+	
+	Note you can use a string (e.g. IDI_ICON) or int (e.g. 1) as an index
+		index 0 = IDI_ICON loadicon.ico
+		index 1 = icon1.co
+		etc.
+	
+	Note the icon filename "should" have quotes, required if spaces in the path
+	
+*/
+
+IDI_ICON ICON "loadicon.ico"
+1   ICON icon1.ico
+2   ICON icon2.ico
+3   ICON icon3.ico
+4   ICON icon4.ico

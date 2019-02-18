@@ -1,0 +1,5 @@
+dub add-local E:\DEV\GitHub-Copy\dwtlib 0.0.1
+
+dub remove-local E:\DEV\GitHub-Copy\dwtlib
+
+dub remove dwtlib --version=1.0.1

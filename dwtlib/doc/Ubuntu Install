@@ -1,0 +1,14 @@
+Set preferences:
+
+    bash ./set-prefs.sh
+
+Preferences:
+
+    System Settings:
+        Brightness & Lock, Lock OFF, DON't require password
+
+    gedit:
+        Text Editor, Edit, Preferences,
+        CHECK Display line numbers
+        Editor tab, tab width 4, CHECK insert spaces instead of tabs
+

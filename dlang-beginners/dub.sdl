@@ -1,0 +1,3 @@
+name "demo"
+description "D language learning examples"
+targetType "executable"

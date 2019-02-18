@@ -1,0 +1,16 @@
+name "vhdcopy"
+
+description "Gui wrapper for VboxManage.exe to copy vhd and set GUUID."
+   
+targetType "executable"
+
+buildType "debug" {
+	buildOptions "releaseMode" "optimize" "inline" "noBoundsCheck"
+}
+
+sourceFiles "res\\resource.res" platform="windows"
+
+dependency "dwtlib" version=">=3.1.0"
+
+//dependency "dwtlib" path="../../"
+

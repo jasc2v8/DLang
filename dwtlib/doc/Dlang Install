@@ -1,0 +1,47 @@
+
+REMOVE DMD (also removes DUB)
+
+    sudo apt remove dmd
+
+INSTALL DMD (includes DUB)
+
+    Browse to http://dlang.org/
+    "Download", "DMD Download", "Release Archive", "Releases", "2017"
+    dmd_2.074.0-0_i386.deb or dmd_2.074.0-0_amd64.deb
+    Open with Software install
+    Install
+
+    $ dmd --version
+    
+            DMD32 D Compiler v2.074.0
+            
+    $ dub --version
+    
+            DUB version 1.3.0
+
+    $ rdmd hello.d
+
+    $ dub fetch dwtlib
+
+    (It's not necessary to get the libs before building the dwt lib)
+
+    $ cd /home/jim/.dub/packages/dwtlib-2.0.2/dwtlib/tools/get-libsc
+    $ bash ./get-libs.sh
+
+    $ cd ../../dwt
+    $ rdmd buld.d base swt
+
+    $ cd ../examples
+
+    windows: $ example.bat
+    linux  : $ bash ./example.sh
+      
+        
+OPTIONAL Install SmartGit
+
+Browse to http://www.syntevo.com/smartgit/download
+    Debian package (deb)
+    Open with Software install (default)
+    Install
+    Search Applications, SmartGit
+

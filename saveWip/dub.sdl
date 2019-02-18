@@ -1,0 +1,11 @@
+name        "savewip"
+
+description "Save source files to a work in progress folder"
+
+targetType  "executable"
+
+buildType "debug" {
+	buildOptions "releaseMode" "optimize" "inline" "noBoundsCheck"
+}
+
+sourceFiles "res\\resources.res" platform="windows"

@@ -1,0 +1,13 @@
+Oddities
+
+DMD v2.074.0 has an issue writing *.di files
+The workaround is to import the *.d files instead
+
+Several *.d files have double semicolons ";;" that give DUB warnings
+
+Linux libs must be in the following order, dwt-base last.
+you "should" be able to revers the order, but it just hangs.
+Don't know why?
+
+    "-l:org.eclipse.swt.gtk.linux.x86.a" \
+    "-l:dwt-base.a" \
