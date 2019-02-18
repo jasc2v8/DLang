@@ -85,5 +85,5 @@ Or, run Snippets using rdub in the examples folder:
         
 Here is a screenshot of the widgets_demo (a simplified version of the SWT controlexample):
 
-![Settings Window](https://raw.github.com/jasc2v8/dLang/dwtlib/master/examples/demo/widgetdemo.png)
+![Demo Screen Shot](https://github.com/jasc2v8/dLang/blob/master/dwtlib/examples/demo/widgetdemo.png)
 	
